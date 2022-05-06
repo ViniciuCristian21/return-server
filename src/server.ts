@@ -11,5 +11,5 @@ app.use(routes)
 const port = process.env.PORT || 3333;
 
 app.listen(port, () => {
-    console.log(`Server is running in: http://localhost:${port}`)
+    console.log(`HTTP server is running.`)
 })
